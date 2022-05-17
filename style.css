@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+
+.main_header {
+  margin: 15px 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_title {
+  display: flex;
+  align-items: center;
+}
+.header_title:hover {
+  cursor: pointer;
+}
+.header_title_font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.header_title_font:hover {
+  cursor: pointer;
+}
+.header_navigation {
+  display: flex;
+  align-items: center;
+}
+.navigations_button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #7a7a7a;
+  margin-left: 30px;
+}
+.navigations_button_home {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #57a2f9;
+  margin-left: 30px;
+}
+.navigations_button_home:hover {
+  cursor: pointer;
+}
+.navigations_button:hover {
+  color: #57a2f9;
+  cursor: pointer;
+}
+.navigations_button_icon {
+  margin-left: 25px;
+  height: 20px;
+}
+.navigations_button_icon {
+  cursor: pointer;
+}
+
+/* Main - Gallery */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo_galery_items {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  width: 100%;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.circle_point_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+.dark_circle {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.dark_circle:hover {
+  cursor: pointer;
+}
+.empty_circle_icon {
+  width: 100%;
+}
+.dark_circle_icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  margin: 25px;
+}
+.circle:hover {
+  cursor: pointer;
+}
+.discount_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 40%;
+  position: absolute;
+}
+.text1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: azure;
+}
+.text2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: azure;
+}
+.text2:hover {
+  cursor: pointer;
+  color: bisque;
+}
+.text1:hover {
+  cursor: pointer;
+  color: bisque;
+}
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  margin-top: 25%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.left_icon {
+  height: 30px;
+  width: 20px;
+  margin-right: 45%;
+}
+.right_icon {
+  height: 30px;
+  width: 20px;
+  margin-left: 45%;
+}
+.left_icon:hover {
+  cursor: pointer;
+}
+.right_icon {
+  cursor: pointer;
+}
+
+/* Main - Sunglasses section */
+
+.sunglasses_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.section {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block1 {
+  width: 270px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.rectangle {
+  width: 270px;
+  height: 370px;
+}
+.glass_position {
+  margin-top: 40px;
+  width: 260px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+}
+.sun {
+  width: 260px;
+  height: 99px;
+}
+.sun:hover {
+  cursor: pointer;
+}
+.text_position {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 200px;
+}
+.glass_description {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.glass_price {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.buy_icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  position: absolute;
+}
+.heart_icon {
+  width: 41px;
+  height: 41px;
+}
+.heart_icon:hover {
+  cursor: pointer;
+}
+.add_to_cart_icon {
+  width: 116px;
+  height: 41px;
+}
+.add_to_cart_icon:hover {
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 240px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.very_main_footer_block {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_footer_block {
+  display: flex;
+  justify-content: space-between;
+}
+.about_us {
+  display: flex;
+  flex-direction: column;
+}
+.footer_bold_text {
+  font-weight: 700;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.footer_small_text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.policy {
+  display: flex;
+  flex-direction: column;
+}
+.policy_text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.policy_text:hover {
+  cursor: pointer;
+  color: burlywood;
+}
+.policy_navigation_block1 {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation_block1 {
+  display: flex;
+  flex-direction: column;
+}
+.navigation_block2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.contact_socials_position {
+  margin-top: 50px;
+}
+.contact_socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socials {
+  display: flex;
+  align-items: center;
+}
+.socials_bold_text {
+  font-weight: 700;
+}
+.background_logo_instagram {
+  width: 26px;
+  height: 26px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url(img/instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_logo_instagram:hover {
+  background-image: url(img/insta-hover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.background_logo_twitter {
+  width: 29px;
+  height: 29px;
+  margin-right: 20px;
+  background-image: url(img/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_logo_twitter:hover {
+  background-image: url(img/twitter-hover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.background_logo_facebook {
+  width: 18px;
+  height: 29px;
+  margin-right: 20px;
+  background-image: url(img/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_logo_facebook:hover {
+  background-image: url(img/facebook-hover.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_logo_youtube {
+  width: 37px;
+  height: 30px;
+  margin-right: 20px;
+  background-image: url(img/youtube.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_logo_youtube:hover {
+  background-image: url(img/youtube-hover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
